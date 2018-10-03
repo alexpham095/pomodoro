@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron|Oswald);
+body {
+  background-color: grey !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#setTimes, #livePom {
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: black;
+  max-width: 450px;
+}
+
+h1 #title {
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+h2,
+h3 {
+  font-family: Oswald;
+  font-weight: bold;
+}
+
+.time {
+  font-family: Orbitron;
+  font-size: 1.5em;
+}
+
+#displayClock {
+  font-family: Orbitron;
+  font-size: 3.5em;
+}
+
+div {
+  display: block;
+  border-radius: 3%;
+}
